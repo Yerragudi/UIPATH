@@ -107,6 +107,7 @@
       <Variable x:TypeArguments="x:Int32" Default="0" Name="rowcnt" />
       <Variable x:TypeArguments="x:String" Name="rescon" />
       <Variable x:TypeArguments="x:Int32" Name="resstatus" />
+      <Variable x:TypeArguments="x:String" Name="Creation_status" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -120,9 +121,6 @@
             <DelegateInArgument x:TypeArguments="ui:IExcelProcess" Name="ExcelProcessScopeTag" />
           </ActivityAction.Argument>
           <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="906.4,2712" sap2010:WorkflowViewState.IdRef="Sequence_4">
-            <Sequence.Variables>
-              <Variable x:TypeArguments="x:String" Name="Creation_status" />
-            </Sequence.Variables>
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
